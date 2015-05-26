@@ -26,9 +26,9 @@ drop table fisica;
 drop table pessoa;
 
 
-drop database FormasFios;
+/*drop database FormasFios;
 
-CREATE DATABASE FormasFios;
+CREATE DATABASE FormasFios;*/
 
 create table pessoa
 (
@@ -95,7 +95,7 @@ create table cliente
 create table cargo
 (
 	cod_cargo 	numeric(3) constraint cargo_pk primary key,
-	nome    	varchar(10) constraint nome_ch check(nome in('Administrativo', 'Setor de servicos', 'Vendas')),
+	nome    	varchar(40) constraint nome_ch check(nome in('Administrativo', 'Setor de servicos', 'Vendas')),
 	salario 	numeric(10,2) constraint sal_nu not null,
 	cargaHorSem	numeric(2), 
 	dataPagamento	date 
