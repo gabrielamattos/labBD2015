@@ -24,7 +24,7 @@ Go
 			where CodigoProduto = @cod_produto;
 			
 		if(@nova_quant <= @quantidadeMinima)
-			Print N'Produto com estoque baixo : + @nomeProduto.'
+			Print N'Produto com estoque baixo :' + @nomeProduto+'.'
 		
 end;			
 		
