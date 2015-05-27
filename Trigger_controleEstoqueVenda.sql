@@ -1,5 +1,5 @@
 -- Trigger: controleEstoqueVenda
--- Autor: 
+-- Autor: Rodrigo
 
 If Object_id ('controleEstoqueVenda','TR') Is Not Null 
 Drop Trigger controleEstoqueVenda 
