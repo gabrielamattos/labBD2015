@@ -1,5 +1,5 @@
 -- View: TempoRestantePagamento
--- Resumo: Usando a funcao temporREstantePagamento, mostra quantos dias faltam pro pagamento de cada funcionario
+-- Usando a funcao temporREstantePagamento, mostra quantos dias faltam pro pagamento de cada funcionario
 -- Autor: Rodrigo
 
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.VIEWS
