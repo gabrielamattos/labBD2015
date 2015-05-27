@@ -1,5 +1,4 @@
 -- View: VendaFuncionario
--- ~pequeno resumo~
 -- Autor: Gabriela
 
 
