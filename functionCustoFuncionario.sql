@@ -1,4 +1,7 @@
---Dado um cpf retorna o custo do funcionario desde a data de entrada
+-- Nome: functionCustoFuncionario
+-- Resumo: Dado um cpf retorna o custo do funcionario desde sua data de entrada
+-- Autor: Rodrigo
+
 create function funcCustoFuncionario(@CPF_Func numeric(11))
 returns numeric
 as
