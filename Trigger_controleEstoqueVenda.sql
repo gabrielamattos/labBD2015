@@ -1,4 +1,5 @@
 -- Trigger: controleEstoqueVenda
+-- Verifica se o estoque esta baixo em cada venda
 -- Autor: Rodrigo
 
 If Object_id ('controleEstoqueVenda','TR') Is Not Null 
