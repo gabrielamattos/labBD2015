@@ -1,5 +1,5 @@
 -- Function: geraSenha
--- ~pequeno resumo~
+-- Resumo: função que gera uma senha prévia formada pela soma do valor do CPF com o código do cliente cadastrado
 -- Autor: Breno
 
 
