@@ -1,5 +1,5 @@
 -- Trigger: controleVenda
--- Autor:
+-- Autor: Breno, Douglas, Gabriela e Rodrigo
 
 If Object_id ('controleVenda','TR') Is Not Null 
 Drop Trigger controleVenda 
