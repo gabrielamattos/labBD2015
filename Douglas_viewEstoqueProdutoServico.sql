@@ -1,7 +1,6 @@
 -- View: Estoque Produto Servico
+-- View criada para gerar o estoque dos produtos de servico
 -- Autor: Douglas
-
-
 
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.VIEWS
         WHERE TABLE_NAME = 'viewEstoqueProdutoServico')
