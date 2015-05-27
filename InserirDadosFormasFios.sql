@@ -418,58 +418,58 @@ values ('Secador', 'Para secar o cabelo dos clientes');
 -- inserindo dados: produto Douglas
 -- ************************************************************
 
-insert into produto (CodigoInterno, CodigoFabrica, nome, PrecoFabrica, NomeLinha, NomeTipo)
-values (1, 102, 'Shampoo', 10.25, 'Shampoo Vida Plus', 'Shampoo');
+insert into produto (CodigoProduto, QuantidadeMinima, CodigoFabrica, nome, PrecoFabrica, NomeLinha, NomeTipo)
+values (1, 100, 102, 'Shampoo', 10.25, 'Shampoo Vida Plus', 'Shampoo');
 
-insert into produto (CodigoInterno, CodigoFabrica, nome, PrecoFabrica, NomeLinha, NomeTipo)
-values (2, 165, 'Condicionador', 15.00, 'Condicionador Vida Plus', 'Condicionador');
+insert into produto (CodigoProduto, QuantidadeMinima, CodigoFabrica, nome, PrecoFabrica, NomeLinha, NomeTipo)
+values (2, 100, 165, 'Condicionador', 15.00, 'Condicionador Vida Plus', 'Condicionador');
 
-insert into produto (CodigoInterno, CodigoFabrica, nome, PrecoFabrica, NomeLinha, NomeTipo)
-values (3, 741, 'Pente', 0.90, 'Pente Anti-magnetico', 'Pente');
+insert into produto (CodigoProduto, QuantidadeMinima, CodigoFabrica, nome, PrecoFabrica, NomeLinha, NomeTipo)
+values (3, 10, 741, 'Pente', 0.90, 'Pente Anti-magnetico', 'Pente');
 
-insert into produto (CodigoInterno, CodigoFabrica, nome, PrecoFabrica, NomeLinha, NomeTipo)
-values (4, 448, 'Oleo Fortificante', 41.99, 'Oleo pos-lavagem', 'Oleo Fortificante');
+insert into produto (CodigoProduto, QuantidadeMinima, CodigoFabrica, nome, PrecoFabrica, NomeLinha, NomeTipo)
+values (4, 100 ,448, 'Oleo Fortificante', 41.99, 'Oleo pos-lavagem', 'Oleo Fortificante');
 
-insert into produto (CodigoInterno, CodigoFabrica, nome, PrecoFabrica, NomeLinha, NomeTipo)
-values (5, 2, 'Secador', 119.99, 'Secador 5 temperaturas', 'Secador');
+insert into produto (CodigoProduto, QuantidadeMinima, CodigoFabrica, nome, PrecoFabrica, NomeLinha, NomeTipo)
+values (5, 5, 2, 'Secador', 119.99, 'Secador 5 temperaturas', 'Secador');
 
-insert into produto (CodigoInterno, CodigoFabrica, nome, PrecoFabrica, NomeLinha, NomeTipo)
-values (6, 56, 'Shampoo Supreme Loreal', 22.99, 'Shampoo Loreal Paris', 'Shampoo');
+insert into produto (CodigoProduto, QuantidadeMinima, CodigoFabrica, nome, PrecoFabrica, NomeLinha, NomeTipo)
+values (6, 50, 56, 'Shampoo Supreme Loreal', 22.99, 'Shampoo Loreal Paris', 'Shampoo');
 
 -- inserindo dados: produtoVenda Douglas
 -- ************************************************************
 
-insert into produtoVenda (CodigoInterno, Quantidade, PrecoVenda)
+insert into produtoVenda (CodigoProduto, Quantidade, PrecoVenda)
 values (1, 1600, 15.00);
 
-insert into produtoVenda (CodigoInterno, Quantidade, PrecoVenda)
+insert into produtoVenda (CodigoProduto, Quantidade, PrecoVenda)
 values (2, 1300, 20.00);
 
-insert into produtoVenda (CodigoInterno, Quantidade, PrecoVenda)
+insert into produtoVenda (CodigoProduto, Quantidade, PrecoVenda)
 values (3, 6130, 1.50);
 
-insert into produtoVenda (CodigoInterno, Quantidade, PrecoVenda)
+insert into produtoVenda (CodigoProduto, Quantidade, PrecoVenda)
 values (4, 200, 50.00);
 
-insert into produtoVenda (CodigoInterno, Quantidade, PrecoVenda)
+insert into produtoVenda (CodigoProduto, Quantidade, PrecoVenda)
 values (5, 310, 140.00);
 
 -- inserindo dados: produtoServico Douglas
 -- ************************************************************
 
-insert into produtoServico (CodigoInterno, Quantidade)
+insert into produtoServico (CodigoProduto, Quantidade)
 values (1, 300);
 
-insert into produtoServico (CodigoInterno, Quantidade)
+insert into produtoServico (CodigoProduto, Quantidade)
 values (2, 300);
 
-insert into produtoServico (CodigoInterno, Quantidade)
+insert into produtoServico (CodigoProduto, Quantidade)
 values (3, 15);
 
-insert into produtoServico (CodigoInterno, Quantidade)
+insert into produtoServico (CodigoProduto, Quantidade)
 values (4, 200);
 
-insert into produtoServico (CodigoInterno, Quantidade)
+insert into produtoServico (CodigoProduto, Quantidade)
 values (5, 15);
 
 
