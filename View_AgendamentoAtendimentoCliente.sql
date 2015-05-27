@@ -1,5 +1,5 @@
--- View: Agendamento de ServiÁo
--- Seleciona todos os agendamentos de atendimento ao cliente, apresentando o nome do cliente e o hor·rio
+-- View: Agendamento de Servi√ßo
+-- Seleciona todos os agendamentos de atendimento ao cliente, apresentando o nome do cliente e o hor√°rio
 -- Utilizada para os funcionarios 
 -- Autora: Gabriela
 
@@ -9,7 +9,8 @@ IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.VIEWS
 GO
 
 create view AgendamentoAtendimentoCliente as 
-	select primeiro_nome as [Nome Cliente],
-		   DataHoraPrevia as [Data Hora]
+	select 	primeiro_nome as [Nome Cliente],
+		DataHoraPrevia as [Data Hora],
+		Cancelado as [Servi√ßo Cancelado]   
 	from fisica, agendamentoServico
 	where fisica.CPF = agendamentoServico.CPFCliente;
