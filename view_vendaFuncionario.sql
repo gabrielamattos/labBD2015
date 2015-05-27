@@ -1,6 +1,5 @@
-
-
---Autor:
+-- View: vendaFuncionario
+--Autor: Gabriela
 
 create view vendaFuncionario as
 		select CodigoVenda, ValorTotal, DataPagamento, CPFFunc
