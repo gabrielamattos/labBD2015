@@ -1,3 +1,7 @@
+--Nome: antes_inserir_em_inf_cliente
+--Resumo: Trigger que é acionada na tentativa de inserção na view inf_cliente, ela realiza o tratamento dessa ação
+--Autor: Breno
+
 If Object_id ('antes_inserir_em_inf_cliente','TR') Is Not Null 
 Drop Trigger antes_inserir_em_inf_cliente 
 Go
