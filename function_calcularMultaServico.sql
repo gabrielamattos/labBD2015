@@ -1,5 +1,5 @@
 -- Function: calcularMultaServico
--- Verifica se j· passou a data do serviÁo e ent„o calcula uma multa a partir do valor do servico
+-- Verifica se j√° passou a data do servi√ßo e ent√£o calcula uma multa a partir do valor do servico
 -- Autora: Gabriela
 
 IF EXISTS (SELECT ROUTINE_NAME FROM INFORMATION_SCHEMA.ROUTINES
@@ -12,10 +12,14 @@ create function calcularMultaServico
 	returns numeric
 		begin
 		declare @Multa numeric;
-		declare @DataAtual date;
+		declare @DataAtual DATETIME;
+		declare @data timestamp;
 
 		set @DataAtual = getdate();
 
+
+
+		set @data = CAST(@DataAtual AS TIMESTAMP);
 
 		if @DataHoraPrevia < @DataAtual 
 			set @Multa = @Valor*0.2;
@@ -23,4 +27,4 @@ create function calcularMultaServico
 			set @Multa = 0
 
 		return @Multa
-		end;
+		end
