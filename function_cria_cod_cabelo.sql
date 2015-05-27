@@ -1,4 +1,6 @@
-
+-- Nome: cria_cod_cabelo
+-- Resumo: função para criar o código do cabelo (que não é único, ou seja, se clientes se enquadrarem na mesma descrição
+-- eles podem possuir mesmo código de cabelo) a partir de informações de tipo, tamanho e cor
 -- Autor: Breno
 
 IF EXISTS (SELECT ROUTINE_NAME FROM INFORMATION_SCHEMA.ROUTINES
@@ -18,7 +20,7 @@ create function cria_cod_cabelo
 			else if @tipo = 'Cacheado'
 				set @codigo = @codigo + 200;
 			else
-				set @codigo = @codigo + 200;
+				set @codigo = @codigo + 300;
 			
 			if @tamanho = 'Curto'
 				set @codigo = @codigo + 30;
