@@ -356,10 +356,8 @@ values (3254784452366, 'Brasil');
 insert into fornecedor (CNPJ, pais)
 values (8856985471214, 'Franca');
 
-
-
-
-
+-- inserindo dados: linhaProduto Douglas
+-- ************************************************************
 
 insert into linhaProduto (nome, descricao, marca)
 values ('Shampoo Vida Plus', 'Para lavar e dar brilho aos cabelos dos clientes', 'Shampoo Vida');
@@ -379,9 +377,8 @@ values ('Secador 5 temperaturas', 'Cada temperatura produz um efeito diferente n
 insert into linhaProduto (nome, descricao, marca)
 values ('Shampoo Loreal Paris', 'Shampoo utilizado para rejuvenecer o cabelo dos clientes', 'Loreal Paris');
 						
-
-
-
+-- inserindo dados: possui Douglas
+-- ************************************************************
 
 insert into possui (CNPJ, nome)
 values (2854612345610, 'Shampoo Vida Plus');
@@ -401,10 +398,8 @@ values (8856985471214, 'Secador 5 temperaturas');
 insert into possui (CNPJ, nome)
 values (3565547745610, 'Shampoo Loreal Paris');
 
-
-
-
-
+-- inserindo dados: tipo_produto Douglas
+-- ************************************************************
 insert into tipo_produto (nome, descricao)
 values ('Shampoo', 'Para lavar o cabelo dos clientes');
 
@@ -420,10 +415,8 @@ values ('Oleo Fortificante', 'Para fortalecer as raizes quebradicas do cabelo do
 insert into tipo_produto (nome, descricao)
 values ('Secador', 'Para secar o cabelo dos clientes');
 
-
-/*
-
-
+-- inserindo dados: produto Douglas
+-- ************************************************************
 
 insert into produto (CodigoInterno, CodigoFabrica, nome, PrecoFabrica, NomeLinha, NomeTipo)
 values (1, 102, 'Shampoo', 10.25, 'Shampoo Vida Plus', 'Shampoo');
@@ -443,12 +436,8 @@ values (5, 2, 'Secador', 119.99, 'Secador 5 temperaturas', 'Secador');
 insert into produto (CodigoInterno, CodigoFabrica, nome, PrecoFabrica, NomeLinha, NomeTipo)
 values (6, 56, 'Shampoo Supreme Loreal', 22.99, 'Shampoo Loreal Paris', 'Shampoo');
 
-
-
-
-
-
-
+-- inserindo dados: produtoVenda Douglas
+-- ************************************************************
 
 insert into produtoVenda (CodigoInterno, Quantidade, PrecoVenda)
 values (1, 1600, 15.00);
@@ -465,11 +454,8 @@ values (4, 200, 50.00);
 insert into produtoVenda (CodigoInterno, Quantidade, PrecoVenda)
 values (5, 310, 140.00);
 
-
-
-
-
-
+-- inserindo dados: produtoServico Rodrigo Rubino
+-- ************************************************************
 
 insert into produtoServico (CodigoInterno, Quantidade)
 values (1, 300);
@@ -488,4 +474,4 @@ values (5, 15);
 
 
 
-commit;*/
+--commit;
