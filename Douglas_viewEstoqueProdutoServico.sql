@@ -1,5 +1,4 @@
 -- View: Estoque Produto Servico
--- ~pequeno resumo~
 -- Autor: Douglas
 
 
