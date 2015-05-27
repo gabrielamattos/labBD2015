@@ -1,5 +1,6 @@
 -- Trigger: controleEstoqueServico
--- Autor: 
+-- Trigger que avisa quando determinado produto ficou com uma quantitade igual ou abaixo da minima
+-- Autor: Douglas
 
 If Object_id ('controleEstoqueServico','TR') Is Not Null 
 Drop Trigger controleEstoqueServico 
