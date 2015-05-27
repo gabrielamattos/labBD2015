@@ -1,3 +1,6 @@
+-- Arquivo para geração das tabelas
+-- Autores: Breno, Douglas, Gabriela e Rodrigo
+
 drop table utilizaServico;
 drop table servico;
 drop table agendamentoServico;
