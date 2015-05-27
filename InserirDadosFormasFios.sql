@@ -454,7 +454,7 @@ values (4, 200, 50.00);
 insert into produtoVenda (CodigoInterno, Quantidade, PrecoVenda)
 values (5, 310, 140.00);
 
--- inserindo dados: produtoServico Rodrigo Rubino
+-- inserindo dados: produtoServico Douglas
 -- ************************************************************
 
 insert into produtoServico (CodigoInterno, Quantidade)
