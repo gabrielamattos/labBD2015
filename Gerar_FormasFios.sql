@@ -248,7 +248,7 @@ create table agendamentoServico
 	CPFFuncionario 	numeric(11), 
 	Multa 		numeric (4,2), 
 	Preco 		numeric (4,2),
-	Cancelado	boolean,
+	Cancelado	numeric,
 	constraint agendamentoServico_pk primary key(DataHoraPrevia, NomeTipoServico, CPFCliente, CPFFuncionario),
 	constraint agendamentoServico_fk1 foreign key(NomeTipoServico) references tipoServico(Nome) ,
 	constraint agendamentoServico_fk2 foreign key(CPFCliente) references cliente(CPF) ,
