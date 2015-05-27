@@ -1,4 +1,5 @@
--- View: Funcionario
+-- Nome:ViewSalariosFunc
+-- Resumo: Mostra o nome e respectivos salarios de cada funcionario, alem da conta onde ele sera depositado
 -- Autor: Rodrigo
 
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.VIEWS
