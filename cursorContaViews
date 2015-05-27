@@ -1,5 +1,5 @@
--- Nome: contaNumeroViews
--- Resumo: Cursor que retorna um pequeno relatorio com o numero e nomes das view criadas no banco
+-- Cursor: contaNumeroViews
+-- Resumo: Cursor que retorna um pequeno relatorio com o numero e nomes das view criadas no banco, no relatorio foram criadas varias views, esse tipo de relatorio sera util
 -- Autor: Rodrigo
 
 DECLARE @schemaName VARCHAR(30)
