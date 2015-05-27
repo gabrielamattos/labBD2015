@@ -1,4 +1,5 @@
-	
+-- Arquivo de inserção de dados nas tabelas
+-- Autores: Breno, Douglas, Gabriela e Rodrigo
 
 -- inserindo dados: pessoa
 -- ************************************************************
