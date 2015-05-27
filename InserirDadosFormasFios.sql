@@ -452,7 +452,7 @@ insert into produtoVenda (CodigoProduto, Quantidade, PrecoVenda)
 values (4, 200, 50.00);
 
 insert into produtoVenda (CodigoProduto, Quantidade, PrecoVenda)
-values (5, 310, 140.00);
+values (5, 310, 10.00);
 
 -- inserindo dados: produtoServico Douglas
 -- ************************************************************
