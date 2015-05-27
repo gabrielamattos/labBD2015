@@ -1,5 +1,5 @@
--- Nome: viewInfoFuncionarios
--- Resumo: View que mostra o nome de cada funcionario e seu respectivo titulo, ou seja, mostra seu diploma caso seja funcionario de servicos e mostra a formacao caso seja funcionario administrativo
+-- View: InfoFuncionarios
+-- Mostra o nome de cada funcionario e seu respectivo titulo, ou seja, mostra seu diploma caso seja funcionario de servicos e mostra a formacao caso seja funcionario administrativo
 -- Autor: Rodrigo
 
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.VIEWS
