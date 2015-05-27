@@ -1,5 +1,5 @@
--- Nome: View Cabelo Clientes
--- Resumo: View que mostra o nome do cliente e todas as caracteristicas de seu cabelo
+-- View: CabeloCliente
+-- View que mostra o nome do cliente e todas as caracteristicas de seu cabelo
 -- Autor: Rodrigo
 
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.VIEWS
