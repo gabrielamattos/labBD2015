@@ -1,3 +1,6 @@
+-- Nome: Custo funcionario
+-- Resumo: View que utiliza a function funcCustoFuncionario para mostrar a soma dos gastos que cada funcionario proporcionou desde a entrada
+-- Autor: Rodrigo
 
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.VIEWS
         WHERE TABLE_NAME = 'viewCustoFuncionario')
