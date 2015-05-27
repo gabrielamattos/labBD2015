@@ -1,5 +1,4 @@
 drop table utilizaServico;
-drop table ACS;
 drop table servico;
 drop table agendamentoServico;
 drop table tipoServico;
@@ -267,17 +266,6 @@ create table servico
 	constraint servico_fk foreign key(DataHora, NomeTipoServico, CPFCliente, CPFFunc) 
 	references agendamentoServico(DataHoraPrevia, NomeTipoServico, CPFCliente, CPFFuncionario) ,
 	constraint servico_pk primary key(DataHora, NomeTipoServico, CPFCliente, CPFFunc, CodigoServico)
-);
-
-create table ACS 	
-(
-	DataHoraPrevia 	timestamp, 
-	NomeTipoServico varchar(40),
-	CPFCliente 	numeric(11), 
-	CPFFunc 	numeric(11), 
-	constraint ACS_pk primary key(DataHoraPrevia, NomeTipoServico, CPFCliente, CPFFunc),
-	constraint ACS_fk foreign key(DataHoraPrevia, NomeTipoServico, CPFCliente, CPFFunc)
-	 references agendamentoServico(DataHoraPrevia, NomeTipoServico, CPFCliente, CPFFuncionario)  
 );
 
 create table utilizaServico
