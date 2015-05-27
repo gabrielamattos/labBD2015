@@ -1,3 +1,6 @@
+-- View: VendaFuncionario
+-- Autor: Gabriela
+
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.VIEWS
         WHERE TABLE_NAME = 'VendaFuncionario')
     DROP VIEW VendaFuncionario;
