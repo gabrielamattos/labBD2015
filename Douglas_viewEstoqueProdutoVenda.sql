@@ -1,5 +1,4 @@
 -- View: Estoque Produto Venda
--- ~pequeno resumo~
 -- Autor: Douglas
 
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.VIEWS
