@@ -1,5 +1,4 @@
 -- View: tipoServico
--- ~pequeno resumo~
 -- Autor: Gabriela
 
 
