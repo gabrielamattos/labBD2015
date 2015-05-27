@@ -1,5 +1,5 @@
--- Nome: atualizaSalariosInflacao
--- Resumo: Procedure com cursor que atualiza os salarios da tabela cargo conforme uma inflacao dada
+-- Cursor, procedure: atualizaSalariosInflacao
+-- Procedure com cursor que atualiza os salarios da tabela cargo conforme uma inflacao dada
 -- Autor: Rodrigo
 
 IF EXISTS (SELECT ROUTINE_NAME FROM INFORMATION_SCHEMA.ROUTINES
