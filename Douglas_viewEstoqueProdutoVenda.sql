@@ -1,4 +1,5 @@
 -- View: Estoque Produto Venda
+-- View criada para gerar o estoque dos produtos de venda
 -- Autor: Douglas
 
 IF EXISTS (SELECT TABLE_NAME FROM INFORMATION_SCHEMA.VIEWS
