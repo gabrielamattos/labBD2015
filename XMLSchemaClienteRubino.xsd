@@ -1,0 +1,64 @@
+<!--Componente:  Rodrigo-->
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+	<xsd:element name = "Cliente">
+		<xsd:complexType>
+			<xsd:complexContent>
+					<xsd:extension base = "Fisica">	
+						<xsd:sequence>
+							<xsd:element name = "CabeloCliente" type = "Cabelo" minOccurs="1" maxOccurs="1"/>	
+						</xsd:sequence>	
+					</xsd:extension>	
+			</xsd:complexContent>
+		</xsd:complexType>
+	</xsd:element>	
+
+	<xsd:complexType name = "Fisica">
+		<xsd:complexContent>
+			<xsd:extension base = "Pessoa">
+				<xsd:sequence>
+				
+					<xsd:element name="CPF" type = "xsd:string" minOccurs="1" maxOccurs="1"/>
+					<xsd:element name="PrimeiroNome" type = "xsd:string" minOccurs="1" maxOccurs="1"/>
+					<xsd:element name="Sobrenome" type = "xsd:string" minOccurs="1" maxOccurs="1"/>
+					<xsd:element name="Senha" type = "xsd:string" minOccurs="1" maxOccurs="1"/>
+					<xsd:element name="Sexo" type = "xsd:string" minOccurs="1" maxOccurs="1"/>
+					
+				</xsd:sequence>	
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+
+	<xsd:complexType name = "Pessoa">
+		<xsd:sequence>
+		    <xsd:element name = "Telefone" type = "TipoTelefone" minOccurs="1" maxOccurs="unbounded"/>
+			<xsd:element name = "Codigo" type = "xsd:string" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name = "Rua" type = "xsd:string" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name = "Numero" type = "xsd:string" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name = "Estado" type = "xsd:string" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name = "Email" type = "xsd:string" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name = "CEP" type = "xsd:string" minOccurs="1" maxOccurs="1"/>			
+			<xsd:element name = "Bairro" type = "xsd:string" minOccurs="1" maxOccurs="1"/>
+			<xsd:element name = "Municipio" type = "xsd:string" minOccurs="1" maxOccurs="1"/>
+			
+		</xsd:sequence>
+	</xsd:complexType>
+
+<xsd:complexType name = "TipoTelefone" >
+		<xsd:sequence>
+			<xsd:element name = "Numero" type = "xsd:integer"/>
+			<xsd:element name = "DDD" type = "xsd:integer"/>
+			<xsd:element name = "Pais" type = "xsd:string"/>
+					
+		</xsd:sequence>
+	</xsd:complexType>
+
+	<xsd:complexType name = "Cabelo">
+		<xsd:sequence>
+			<xsd:element name = "Cor" type = "xsd:string"/>
+			<xsd:element name = "Tamanho" type = "xsd:string"/>
+			<xsd:element name = "CodigoCabelo" type = "xsd:integer"/>
+			<xsd:element name = "Tipo" type = "xsd:string"/>			
+		</xsd:sequence>
+	</xsd:complexType>
+</xsd:schema>
