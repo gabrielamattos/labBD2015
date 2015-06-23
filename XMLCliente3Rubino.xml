@@ -1,0 +1,36 @@
+<!--Componente:  Rodrigo-->
+
+	<Cliente>
+		
+				
+					<Telefone>	
+						
+						<Numero>232122545</Numero>
+						<DDD>31</DDD>
+						<Pais>Brasil</Pais>
+					</Telefone>	
+					
+					<Codigo>5</Codigo>
+					<Rua>Voluntarios da Patria</Rua>
+					<Numero>235</Numero>
+					<Estado>Sao Paulo</Estado>
+					<Email>pedroaugusto@hotmail.com</Email>
+					<CEP>14856598</CEP>
+					<Bairro>Parque do Basalto</Bairro>
+					<Municipio>Araraquara</Municipio>										
+				
+			<CPF>11245789655</CPF>		
+			<PrimeiroNome>Pedro</PrimeiroNome>
+			<Sobrenome>Augusto</Sobrenome>
+			<Senha>ABC1245</Senha>
+			<Sexo>M</Sexo>
+			
+		<CabeloCliente>
+			<Cor>Loiro</Cor>
+			<Tamanho>Medio</Tamanho>
+			<CodigoCabelo>222</CodigoCabelo>
+			<Tipo>Cacheado</Tipo>
+			
+			
+		</CabeloCliente>		
+	</Cliente>
