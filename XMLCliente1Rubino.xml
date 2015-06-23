@@ -1,0 +1,35 @@
+<!--Componente:  Rodrigo-->
+	<Cliente>
+							
+					<Telefone>							
+						<Numero>22565898569</Numero>
+						<DDD>16</DDD>
+						<Pais>Brasil</Pais>
+					</Telefone>	
+					
+					<Codigo>5</Codigo>
+					<Rua>Rua Padre Afonso</Rua>
+					<Numero>744	</Numero>
+					<Estado>Sao Paulo</Estado>
+					<Email>andreipanhan@hotmail.com</Email>
+					<CEP>14252669</CEP>
+					<Bairro>Vila Prado</Bairro>
+					<Municipio>Sao Carlos</Municipio>										
+				
+				
+			<CPF>22565898569</CPF>		
+			<PrimeiroNome>Andreia</PrimeiroNome>
+			<Sobrenome>Panhan</Sobrenome>
+			<Senha>MCG5522</Senha>
+			<Sexo>F</Sexo>
+		
+			
+		<CabeloCliente>
+			<Cor>Castanho</Cor>
+			<Tamanho>Curto</Tamanho>
+			<CodigoCabelo>231</CodigoCabelo>
+			<Tipo>Cacheado</Tipo>
+			
+			
+		</CabeloCliente>		
+	</Cliente>'
