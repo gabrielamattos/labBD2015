@@ -1,0 +1,35 @@
+
+<!--Componente:  Rodrigo-->
+	<Cliente>
+					
+				<Telefone>	
+						
+					<Numero>333255466</Numero>
+					<DDD>16</DDD>
+					<Pais>Brasil</Pais>
+				</Telefone>	
+					
+				<Codigo>3</Codigo>
+				<Rua>Alojamento UFSCar</Rua>
+				<Numero>67</Numero>
+				<Estado>Sao Paulo</Estado>
+				<Email>gabriela@gmail.com</Email>
+				<CEP>13565905</CEP>
+				<Bairro>UFSCar</Bairro>
+				<Municipio>Sao Carlos</Municipio>										
+			
+				
+		<CPF>33366699900</CPF>		
+		<PrimeiroNome>Gabriela</PrimeiroNome>
+		<Sobrenome>Pereira</Sobrenome>
+		<Senha>MCX2222</Senha>
+		<Sexo>F</Sexo>
+		
+	<CabeloCliente>
+		<Cor>Preto</Cor>
+		<Tamanho>Medio</Tamanho>
+		<CodigoCabelo>123</CodigoCabelo>
+		<Tipo>Liso</Tipo>		
+		
+	</CabeloCliente>		
+</Cliente>
