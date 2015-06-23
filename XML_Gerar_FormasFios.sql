@@ -189,7 +189,7 @@ CREATE XML SCHEMA COLLECTION XMLSchemaProdutoVenda AS '
 			<xsd:element name="precoFabrica" minOccurs="0" maxOccurs="1">
 				<xsd:simpleType>
 					<xsd:restriction base="xsd:decimal">
-						<xsd:totalDigits value="20"/>
+						<xsd:totalDigits value="4"/>
 						<xsd:fractionDigits value="2"/>
 					</xsd:restriction>
 				</xsd:simpleType>
